@@ -4,7 +4,7 @@ import { TextInput, View } from "react-native";
 interface AppInput {
   style: any;
 }
-function AppInput(props) {
+function AppInput(props: AppInput) {
   return <TextInput style={props.style} />;
 }
 
