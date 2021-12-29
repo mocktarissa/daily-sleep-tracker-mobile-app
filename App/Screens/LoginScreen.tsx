@@ -6,6 +6,17 @@ import AppText from "../Components/AppText";
 import Screen from "../Components/Screen";
 
 function LoginScreen() {
+
+  /* 
+  When sending login requests to the server we have 
+  to send a specific header data namely Authorization 
+  {
+    headers:{
+      AUthorization:'Bearer '+ token,
+    }
+  }
+  
+  */
   return (
     <Screen>
       <View style={styles.container}>
